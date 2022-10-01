@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: suyang-cloud01
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.3.65:8848
+        service: ${spring.application.name}
