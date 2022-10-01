@@ -12,6 +12,7 @@
     <modules>
         <module>cloud01</module>
         <module>cloud01-feign</module>
+        <module>cloud01-yx</module>
     </modules>
 
     <properties>
@@ -49,6 +50,12 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.16</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

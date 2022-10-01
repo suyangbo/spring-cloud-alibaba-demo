@@ -1,4 +1,4 @@
-package com.suyang.cloud.cloud01;
+package com.cloud.cloud01;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.suyang.cloud.cloud01.controller;
+package com.cloud.cloud01.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

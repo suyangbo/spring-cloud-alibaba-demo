@@ -1,6 +1,6 @@
-package com.suyang.cloud.cloud01.fallback;
+package com.cloud.cloud01.fallback;
 
-import com.suyang.cloud.cloud01.feign.Cloud01Feign;
+import com.cloud.cloud01.feign.Cloud01Feign;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 

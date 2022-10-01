@@ -1,6 +1,6 @@
-package com.suyang.cloud.cloud01.feign;
+package com.cloud.cloud01.feign;
 
-import com.suyang.cloud.cloud01.fallback.Cloud01Fallback;
+import com.cloud.cloud01.fallback.Cloud01Fallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 
